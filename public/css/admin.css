@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+ 
+    background-image: url(../Images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    line-height: 24px;
+    color: #000;
+    letter-spacing: 0.3px;
+    overflow-x: hidden;
+    font-size:13px;
+  }
+
+  .buttons{
+      border:1px solid #26D376;
+      color:#26D376;
+      background-color: #fff;
+  }
+  .buttons:hover{
+    border:1px solid #26D376;
+    color:#fff;
+    background: #26D376;
+}
+
+.buttons_red{
+    border:1px solid rgb(226, 50, 50);
+    color:rgb(226, 50, 50);
+}
+.buttons_red:hover{
+  border:1px solid rgb(226, 50, 50);
+  color:#fff;
+  background: rgb(226, 50, 50);
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    
+}
+::-webkit-scrollbar:hover{
+    width: 5px;
+    
+}
+/* ::-webkit-scrollbar-track{
+    background-color: #ccc;
+} */
+
+::-webkit-scrollbar-thumb{
+    background-color: #ccc;
+    border-radius: 5px;
+    transition: .2s ease-in-out;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #c8c8c8;
+    
+}
+
+
+.nav-pills li a.active{
+    background-color: #26D376 !important;
+    color:#fff !important;
+}
+
+.nav-pills li a{
+    color: #26D376 !important;
+}
+
+
+.overflow{
+    overflow-y: auto;
+}
+
+
+  @media (min-width: 768px){
+      .modal-xl{
+          width:100%;
+          max-width:1000px;
+      }
+  }
+
+
+  
